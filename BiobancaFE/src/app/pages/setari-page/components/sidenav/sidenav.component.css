@@ -1,0 +1,29 @@
+.footer {
+  padding: 20px 5px;
+}
+
+.footer p {
+  padding-left: 21px;
+  font-size: 8px;
+}
+
+.footer img {
+  margin-left: 20px;
+  width: 60px;
+  height: 60px;
+}
+
+CDBSidebarMenuItem img {
+  vertical-align: middle;
+  margin-right: 1rem;
+  width: 24px;
+  height: 24px;
+}
+
+.color {
+  color: #656565;
+}
+
+.Logocolor {
+  color: blue;
+}/*# sourceMappingURL=sidenav.component.css.map */

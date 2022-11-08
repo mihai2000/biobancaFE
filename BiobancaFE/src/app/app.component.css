@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@font-face {
+    font-family: 'Roboto';
+    src: url('../assets/fonts/Roboto/Roboto-Black.ttf');
+    src:url('../assets/fonts/Roboto/Roboto-BlackItalic.ttf');
+    src:url('../assets/fonts/Roboto/Roboto-Bold.ttf');
+    src:url('../assets/fonts/Roboto/Roboto-BoldItalic.ttf');
+    src:url('../assets/fonts/Roboto/Roboto-Italic.ttf');
+    src:url('../assets/fonts/Roboto/Roboto-Light.ttf');
+    src:url('../assets/fonts/Roboto/Roboto-LightItalic.ttf');
+    src:url('../assets/fonts/Roboto/Roboto-Medium.ttf');
+    src:url('../assets/fonts/Roboto/Roboto-MediumItalic.ttf');
+    src:url('../assets/fonts/Roboto/Roboto-Regular.ttf');
+    src:url('../assets/fonts/Roboto/Roboto-Thin.ttf');
+    src:url('../assets/fonts/Roboto/Roboto-ThinItalic.ttf');
+}
+@font-face {
+    font-family: 'Pt-Sans';
+    src: url('../assets/fonts/PT_Sans/PTSans-Bold.ttf');
+    src: url('../assets/fonts/PT_Sans/PTSans-BoldItalic.ttf');
+    src: url('../assets/fonts/PT_Sans/PTSans-Italic.ttf');
+    src: url('../assets/fonts/PT_Sans/PTSans-Regular.ttf');
+}
+*{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+:host {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+  
+  mat-drawer {
+    width: 260px;
+  }
+  mat-drawer-container {
+    height: 100%;
+  }
+  
+  mat-drawer {
+    /* background: #E7E7E7;
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.28); */
+    background: none;
+    border: none;
+  }

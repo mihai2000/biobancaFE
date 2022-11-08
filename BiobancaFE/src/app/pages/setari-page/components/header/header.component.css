@@ -1,0 +1,205 @@
+mat-toolbar {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: #f7f7f7;
+}
+
+ul li {
+  list-style: none;
+}
+
+button {
+  outline: none;
+  border: 0;
+  background: transparent;
+}
+
+.user {
+  font-size: 14px;
+}
+
+.info {
+  background: none;
+  margin-left: 15px;
+  line-height: 15px;
+}
+
+.info:hover {
+  background: none;
+}
+
+.info div:nth-child(1) {
+  font-size: 16px;
+  color: #656565;
+}
+
+.info div {
+  font-size: 10px;
+  color: #656565;
+}
+
+.userInfo {
+  margin-left: 109px;
+}
+
+.userIMG {
+  width: 55px;
+  height: 55px;
+}
+
+.number {
+  text-decoration: none;
+  color: #656565;
+  margin-right: 42px;
+}
+
+.navbar {
+  margin-right: 130px;
+}
+
+.navbar-nav {
+  margin-right: 115px;
+}
+
+.nav-item {
+  font-size: large;
+  line-height: 24px;
+  font-weight: 500;
+  color: #656565;
+  margin-left: 50px;
+}
+
+.nav-link.active {
+  color: #02509B;
+  font-weight: 700;
+}
+
+.logo {
+  margin-left: 46px;
+  width: 50px;
+  height: 50px;
+}
+
+.arrow {
+  width: 15px;
+  height: 15px;
+  margin-left: 15px;
+}
+
+.infoPop {
+  margin-left: 5px;
+  line-height: 20px;
+  margin-top: 10px;
+}
+
+.numberPopover {
+  text-decoration: none;
+  color: #656565;
+  font-size: 15px;
+  margin-left: 15px;
+}
+
+.userPopover {
+  opacity: 50%;
+}
+
+.infoPop div:nth-child(1) {
+  font-size: 20px;
+}
+
+.infoPop div:nth-child(2) {
+  font-size: 10px;
+}
+
+.btnPopover {
+  background: linear-gradient(180deg, #076AC9 0%, #02509B 100%);
+  border-radius: 20px;
+  margin-left: 50px;
+  width: 100px;
+  height: 24px;
+  position: relative;
+}
+
+.btnPopover a {
+  position: absolute;
+  margin-top: -12px;
+  margin-left: 15px;
+  display: flex;
+  justify-items: center;
+  text-decoration: none;
+  color: #fff;
+}
+
+.header {
+  border-radius: 20px;
+  background: #E7E7E7;
+  width: 258px;
+  height: 121px;
+  margin-top: -16px;
+  align-items: center;
+}
+
+::ng-deep .mat-menu-panel.Popmenu {
+  width: 258px;
+  border-radius: 20px;
+  margin-top: 10px;
+}
+
+.popover {
+  border-radius: 20px;
+  height: 357px;
+  border: none;
+}
+
+.itemGroup {
+  width: 100%;
+  margin-top: 15px;
+  margin-left: 40px;
+  position: relative;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  height: 35px;
+}
+
+.item p {
+  margin-left: 30%;
+  margin-top: 15px;
+  font-size: 15px;
+}
+
+.item a {
+  margin-left: 30%;
+}
+
+.item1 img {
+  position: absolute;
+  width: 29px;
+  height: 29px;
+}
+
+.item2 img {
+  position: absolute;
+  width: 22px;
+  height: 22px;
+  left: 5px;
+}
+
+.item3 img {
+  position: absolute;
+  width: 19px;
+  height: 19px;
+  left: 7px;
+}
+
+.item4 img {
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  left: 10px;
+}/*# sourceMappingURL=header.component.css.map */

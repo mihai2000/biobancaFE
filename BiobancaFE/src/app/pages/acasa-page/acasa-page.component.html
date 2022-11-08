@@ -1,0 +1,118 @@
+<section>
+  <mat-toolbar>
+    <mat-toolbar-row class="d-flex flex-column justify-content-evenly">
+      <!-- <button mat-icon-button (click)="toggleSidebar()" class="menu">
+        <mat-icon >menu</mat-icon>
+      </button> -->
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a href="#" class="navbar-brand">
+          <img class="logo " src="../../../../assets/ICON/logo.svg" alt="logo">
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-mdb-toggle="collapse"
+            data-mdb-target="#navbarText"
+            aria-controls="navbarText"
+            aria-expanded="false"
+            aria-label="Toggle navigation">
+            <img src="../../../../assets/ICON/3 lines menu.svg" alt="">
+          </button>
+          <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="/">Acasa</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/registru">Registru</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/formular">Formulare</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/setari">Setari</a>
+              </li>
+            </ul>
+          <div>
+            <div class="d-flex flex-row userInfo">
+              <a href="tel:+373" class="align-self-center number">+373 78 xxx xxx</a>
+              <div class="d-flex flex-row ">
+                <img src="../../../../assets/ICON/user.svg" alt="user" class="userIMG">
+                  <div #target class="d-flex flex-column info align-self-end">
+                      <div><b>{{user.name}}</b></div>
+                      <div>{{user.type}}</div>
+                      <div>ID: {{user.id}}</div>
+                      <div>{{user.role}}</div>
+                   </div>
+                        <button
+                    mat-button
+                    [matMenuTriggerFor]="menu"
+                    class="user d-flex align-items-center">
+                        <img class="align-self-center arrow" src="../../../../../assets/ICON/Arrow-01.svg" alt="">
+                  </button>
+            </div>
+          </div>
+        </div>
+      </div>
+        </div>
+      </nav>
+      <div class="row mr-2 ml-auto">
+        <ul class="row m-0 align-items-center">
+          <li>
+            <mat-menu #menu="matMenu" class="Popmenu">
+                <div class="d-flex flex-row justify-content-center header">
+                  <img src="../../../../assets/ICON/user.svg" alt="user" class="d-flex userIMG userPopover">
+                  <div class="d-flex flex-column infoPop">
+                  <div><b>{{user.name}}</b></div>
+                  <div>{{user.mail}}</div>
+                  </div>
+                </div>
+                <div class="flex-column d-flex itemGroup">
+                  <div class="item1 item">
+                  <img src="../../../../assets/ICON/RolePop.svg" alt="">
+                  <p>{{user.role}}</p>
+                  </div>
+                  <div class="item2 item">
+                  <img src="../../../../assets/ICON/ID.svg" alt="">
+                  <p>ID: {{user.id}}</p>
+                  </div>
+                  <div class="item3 item">
+                  <img src="../../../../assets/ICON/Phone.svg" alt="">
+                  <a href="tel:+373" class="numberPopover">+373 78 xxx xxx</a>
+                 </div>
+                  <div class="item4 item">
+                  <img src="../../../../assets/ICON/Logout.svg" alt="">
+                  <p>Log out</p>
+                </div>
+                  <hr>
+                  <button class="btn btn-primary btnPopover"><a href="/setari">Setari</a></button>
+               </div>
+            </mat-menu>
+          </li>
+        </ul>
+      </div>
+    </mat-toolbar-row>
+  </mat-toolbar>
+  <div class="text d-flex justify-content-start">
+    <h1>Registrul de evidență a biospecimenilor - Biobanca</h1>
+  </div>
+  <div class="boxGroups d-flex flex-row position-relative">
+    <a href="/registru" class="boxItem flex-column justify-content-center">
+      <img src="../../../assets/ICON/Registru-01.svg" alt="">
+      <p>Registru</p>
+    </a>
+    <a href="/formular" class="boxItem flex-column  justify-content-center">
+      <img src="../../../assets/ICON/Formulare.svg" alt="">
+      <p>Formulare</p>
+    </a>
+    <a href="#" class="boxItem flex-column justify-content-center">
+      <img src="../../../assets/ICON/Donator-01.svg" alt="">
+      <p>Colecteaza Probe</p>
+    </a>
+    <a href="/setari" class="boxItem flex-column justify-content-center">
+      <img src="../../../assets/ICON/Setting.svg" alt="">
+      <p>Setari</p>
+    </a>
+    </div>
+</section>
