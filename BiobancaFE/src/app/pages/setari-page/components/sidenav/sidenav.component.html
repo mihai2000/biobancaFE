@@ -1,0 +1,64 @@
+<!-- <mat-nav-list>
+  <button mat-icon-button (click)="toggleSidebar()" class="bg-white menu">
+    <mat-icon>menu</mat-icon>
+  </button>
+  <div class="logo py-4">
+    <img src="../../../../../assets/user.svg" alt="" class="user-image mr-1 p-2" />
+    <p>{{user.name}}</p>
+  </div>
+  <a mat-list-item routerLinkActive="list-item-active" routerLink="/registru">
+    <mat-icon>home</mat-icon> Registru
+  </a>
+  <a mat-list-item routerLinkActive="list-item-active" routerLink="/formular">
+    <mat-icon>dashboard</mat-icon> Formulare
+  </a>
+  <a mat-list-item routerLinkActive="list-item-active" routerLink="/setari">
+    <mat-icon>dashboard</mat-icon> Setari
+  </a>
+  <a mat-list-item> <mat-icon>edit</mat-icon>Contacte </a>
+  <a mat-list-item> <mat-icon>edit</mat-icon>Log Out</a>
+</mat-nav-list> -->
+ <!-- sidebar -->
+ <!-- <div class=" d-flex" style="height: 100vh;"> -->
+  <CDBSidebar textColor="#fff" backgroundColor="#E7E7E7">
+      <CDBSidebarHeader [prefix]="icon">
+          <ng-template #icon>
+            <fa-icon class="color" [icon]="bars"></fa-icon>
+          </ng-template>
+      </CDBSidebarHeader>
+      <CDBSidebarContent>
+          <CDBSidebarMenu  class="sidebar-content">
+              <CDBSidebarMenuItem link='/registru'>
+                <img src="../../../../../assets/ICON/Registru-01.svg" alt="">
+                <span class="color">Registru</span> 
+              </CDBSidebarMenuItem>
+              <CDBSidebarMenuItem class="color" link='/formular'>
+                <img src="../../../../../assets/ICON/Formulare.svg" alt="">
+                  <span class="color">Formulare</span> 
+              </CDBSidebarMenuItem>
+              <CDBSidebarMenuItem link='/setari'>
+                <img src="../../../../../assets/ICON/Setting.svg" alt="">
+                <span class="color">Setari</span> 
+              </CDBSidebarMenuItem>
+              <CDBSidebarMenuItem link='/contacte'>
+                <img src="../../../../../assets/ICON/Phone.svg" alt="">
+                  <span  class="color">Contacte</span>
+              </CDBSidebarMenuItem>
+              <CDBSidebarMenuItem link='/contacte'>
+                <img src="../../../../../assets/ICON/Logout.svg" alt="">
+                <span class="color">Log out</span>
+            </CDBSidebarMenuItem>
+          </CDBSidebarMenu>
+      </CDBSidebarContent>
+      <div class="mt-auto">
+          <CDBSidebarFooter style="margin-top: auto;">
+              <div class="d-flex flex-row sidebar-btn-wrapper footer">
+                  <img src="../../../../assets/ICON/logo.svg" alt="">
+                  <p class="Logocolor">UNIVERSITATEA DE STAT DE MEDICINA SI FARMACIE
+                     "NICOLARE TESTIMITEANU" DIN REPUBLICA MOLDOVA</p>
+              </div>
+          </CDBSidebarFooter>
+      </div>
+  </CDBSidebar>
+<!-- </div> -->
+<!-- end sidebar -->
